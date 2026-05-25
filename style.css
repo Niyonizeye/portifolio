@@ -216,6 +216,10 @@
     position: relative;
     overflow: hidden;
   }
+
+  .avatar-circle img {
+    object-fit: cover;
+  }
   .avatar-circle::before {
     content: '';
     position: absolute;
